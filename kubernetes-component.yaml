@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    backstage.io/kubernetes-id: kubernetes-component
+    backstage.io/kubernetes-label-selector: 'app=tokenservice'
   name: kubernetes-component
 spec:
   lifecycle: production
