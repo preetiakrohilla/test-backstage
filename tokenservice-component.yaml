@@ -4,7 +4,11 @@ metadata:
   annotations:
     backstage.io/kubernetes-label-selector: 'app=tokenservice'
   name: tokenservice
+  description: A web based aplication use to create registration and access Token for ISV user
+  tags:
+    - spring
+    - java
 spec:
   lifecycle: production
-  owner: Devops
+  owner: SCL
   type: service
