@@ -8,14 +8,14 @@ spec:
   profile:
     displayName: Preeti Rohilla
     email: preetiakrohlla@gmail.com
-  memberOf: [SCL] 
+  memberOf: [scl] 
 
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: SCL
+  name: scl
 spec:
   type: team
   children: []
