@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -7,3 +8,12 @@ spec:
     displayName: Preeti Rohilla
     email: preetiakrohilla@gmal.com
   memberOf: [scl] 
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: scl
+spec:
+  type: team
+  children: []
